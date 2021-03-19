@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <h1>Forma nr.123a</h1>
+    <form action="#" method="get" enctype="multipart/form-data">
+        <div>
+            <p>Vardas</p>
+            <input type="text" tabindex="1" name="vardas" value="Vardas" />
+        </div>
+        <div>
+            <p>Tel.nr</p>
+            <input placeholder="tel.nr" tabindex="3" type="tel" name="tel">
+        </div>
+        <div>
+            <p>Lytis</p>
+            <div>
+                <input checked type="radio" tabindex="4" name="gender" value="male" /> Vyr.
+            </div>
+            <div>
+                <input type="radio" tabindex="4" name="gender" value="female" /> Mot.
+            </div>
+        </div>
+        <div>
+            <p>Transportas</p>
+            <div>
+                <input checked type="checkbox" name="bike" value="yes" /> Dviratis
+
+            </div>
+            <div>
+                <input type="checkbox" name="car" /> Mašina
+            </div>
+            <div>
+                <input type="checkbox" name="house" value="yes" /> Autobusas
+            </div>
+        </div>
+        <div>
+            <p>Papildoma informacija</p>
+            <textarea name="text"></textarea>
+        </div>
+        <div>
+            <p>Pridėti nuotrauką</p>
+            <input type="file" />
+        </div>
+        <div>
+            <p>Patinkanti spalva</p>
+            <select name="color">
+					<option value="red">Raudona</option>
+					<option value="green" selected>Žalia</option>
+					<option value="yellow">Geltona</option>
+				</select>
+        </div>
+        <div>
+            <p>Veiksmai</p>
+            <button type="submit">Siųsti</button>
+            <button type="reset">Išvalyti</button>
+        </div>
+    </form>
+    <footer>
+        <form action="">
+
+        </form>
+    </footer>
+</body>
+
+</html>

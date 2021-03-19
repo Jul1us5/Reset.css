@@ -1,0 +1,71 @@
+<!-- Pranešame naršyklei kaip apdirbti failą -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Puspalio title -->
+    <title>Form</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+</head>
+<!-- Puslapio atvaizdavimas -->
+
+<body>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <div>
+            <p>Vardas</p>
+            <input placeholder="Vardas" tabindex="1" name="username" type="text" />
+        </div>
+        <div>
+            <p>Slaptažodis</p>
+            <input tabindex="2" name="userpass" type="password" />
+        </div>
+        <div>
+            <p>Tel.nr</p>
+            <input tabindex="3" name="userphone" type="tel" />
+        </div>
+        <div>
+            <p>Lytis</p>
+            <div>
+                <input tabindex="4" checked type="radio" name="gender" value="male" /> Vyr.
+            </div>
+            <div>
+                <input tabindex="4" type="radio" name="gender" value="female" /> Mot.
+            </div>
+        </div>
+        <div>
+            <p>Transportas</p>
+            <div>
+                <input tabindex="5" checked type="checkbox" name="bike" value="yes" /> Dviratis
+            </div>
+            <div>
+                <input tabindex="6" type="checkbox" name="car" value="yes" /> Mašina
+            </div>
+            <div>
+                <input tabindex="7" disabled type="checkbox" name="house" value="yes" /> Autobusas
+            </div>
+        </div>
+        <div>
+            <p>Papildoma informacija</p>
+            <textarea tabindex="8" name="text"></textarea>
+        </div>
+        <div>
+            <p>Pridėti nuotrauką</p>
+            <input tabindex="9" type="file" />
+        </div>
+        <div>
+            <p>Patinkanti spalva</p>
+            <select tabindex="10" name="color">
+					<option value="red">Raudona</option>
+					<option value="green">Žalia</option>
+					<option selected value="yellow">Geltona</option>
+				</select>
+        </div>
+        <div>
+            <p>Veiksmai</p>
+            <button tabindex="11" type="submit">Siųsti</button>
+            <button tabindex="12" type="reset">Išvalyti</button>
+        </div>
+    </form>
+</body>
+
+</html>
