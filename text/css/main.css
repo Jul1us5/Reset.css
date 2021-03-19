@@ -1,4 +1,51 @@
 body {
-    padding: 0px;
-    margin: 0px;
+    font-size: 20px;
+    color: blue;
+    font-family: 'Redressed', cursive;
+}
+
+.fontsize {
+    font-size: 30px;
+}
+
+.color {
+    color: blue;
+    color: rgb(9, 210, 83);
+}
+
+.align {
+    text-align: center;
+}
+
+.decor {
+    text-decoration: underline;
+}
+
+.fonts {
+    font-family: 'Redressed', cursive;
+}
+
+.fontw {
+    font-weight: bold;
+}
+
+.shadow {
+    text-shadow: 10px 10px 5px rgb(76, 0, 255);
+}
+
+.upper {
+    text-transform: lowercase;
+}
+
+.ident {
+    text-indent: 100px;
+}
+
+.wspace {
+    word-spacing: 20px;
+}
+
+.example {
+    border: 1px solid red;
+    font-family: Arial, Helvetica, sans-serif;
 }
